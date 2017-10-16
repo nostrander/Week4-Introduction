@@ -1,0 +1,91 @@
+/*
+      IT 2320 - Week 2
+   
+      Introduction Page - using Cascading Style Sheets
+      Author: Natasha Ostrander
+      Date:   9/07/17
+      Filename: intro.css
+
+   This file contains the base styles used by the intro web page
+*/
+
+
+/* Colors, margins and sizing */
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 4.55%;
+	padding-right: 4.55%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+
+
+body h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 3em;
+        color: red;
+}
+
+body h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.5em;
+        color: blue;
+}
+
+body h3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.5em;
+        color: green;
+}
+
+/* Hypertext links */
+
+a {
+	color: #00e;
+}
+a:visited {
+	color: #551a8b;
+}
+a:hover {
+	color: #06e;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+}
+
+
+/* List styles */
+
+ul, ol {
+	margin: 1em 0;
+	padding: 0 0 0 40px;
+}
+
+
+/* Images */
+
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+
+
+}

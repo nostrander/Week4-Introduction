@@ -1,0 +1,70 @@
+<HTML>
+  <HEAD>
+    <!--
+      IT 2320 - Week 3
+   
+      Introduction Page - using Cascading Style Sheets
+	and uses JavaScript
+      Author: Natasha Ostrander
+      Date:   9/17/17
+
+      Filename: intro.html
+     -->
+
+    <title>Natasha Ostrander</title>
+
+
+  </HEAD>
+  <link href="intro.css" rel="stylesheet" />
+
+  <BODY>
+      <script src="main.js"></script>
+
+    <h1><span> Welcome! </span></h1>
+<p>This document was last modified <span id="demo"></span>.</p>
+
+    <h2>My name is Natasha Ostrander.</h2>
+    <p> 
+      <img src="csu.png"/>
+      I graduated from Cleveland State University in 1997 with a Bachelor's Degree
+      in Computer Science. Currently, I do not have a Master's but that is on the 
+      agenda for the future. Right now, I am working on refreshing my skills by getting 
+      some post-degree certificates and getting myself back into the habit of doing coursework.
+    </p>
+
+    <p>
+      For the past 20+ years, I have worked in the IT department for a railroad
+      track manufacturer <a href="http://www.clevelandtrack.com">(Cleveland Track Material)</a> in Cleveland, OH.  We currently have about 10 sites in 
+      North and South America.
+    </p>
+    
+    <h3>Interesting Facts (depending on who you talk to)</h3>
+    <ul id="l1"> 
+      <li>I was not born in Ohio (Mobile, AL actually)</li>
+      <li>I enjoy learning new languages (programming and spoken)</li>
+      <li>I have 3 kids (not including the pets or husband)</li>
+      <li>I have a cat and 3 rabbits</li>
+    </ul>
+  
+    <input type="button" value="Hide text" 
+	onclick="document.getElementById('l1').style.visibility='hidden'">
+
+    <input type="button" value="Show text"
+	onclick="document.getElementById('l1').style.visibility='visible'">
+
+    <h3>In my spare time, I like to (in no particular order)</h3>
+    <ol id="l2"> 
+      <li>Play Video Games (currently <a href="https://www.everquest.com/home">Everquest</a> most days)</li>
+      <li>Cross Stitch</li>
+      <li>Hike</li>
+      <li>Bake (desserts mostly)</li>
+      <li>Read (just about anything not tied down)</li>
+    </ol>
+    <input type="button" value="Hide text" 
+	onclick="document.getElementById('l2').style.visibility='hidden'">
+
+    <input type="button" value="Show text"
+	onclick="document.getElementById('l2').style.visibility='visible'">
+	
+  </BODY>
+</HTML>
